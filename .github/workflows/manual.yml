@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 6
 
-     - name: Changed files
+      - name: Changed files
         run: |
           echo 2
           git diff --name-only HEAD~2
